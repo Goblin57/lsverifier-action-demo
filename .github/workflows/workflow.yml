@@ -1,0 +1,13 @@
+name: LSVerifier Test Workflow
+
+on: push
+
+jobs:
+    RunLSVerifierAction:
+        runs-on: ubuntu-latest
+        steps:
+            - name: checkout
+              uses: actions/checkout@v4
+            
+            - name: Run LSVerifier action
+              uses: Goblin57/LSVerifier-Action@v1
