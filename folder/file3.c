@@ -1,5 +1,7 @@
 #include <math.h>
 
+// Hello World!
+
 int main() {
     unsigned int N = nondet_uint();
     double x = nondet_double();
